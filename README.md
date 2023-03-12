@@ -6,12 +6,13 @@ Hotel Cancellation Machine Learning Model
 2. 
 
 ## Feature Engineering:
-1. [Arrival Month, Arrival Date] can be turned into "season categorical" by grouping
+1. ✅ [Arrival Month, Arrival Date] can be turned into "season categorical" by grouping
     - Season in Italy: 
         - Spring: March to May
         - Summer: June to August
         - Fall: September to Novemeber 
         - Winter: December to February
+    - Get number of bookings, cancelled, non cancelled
 2. Grouping the rows based on market segment
 3. sum ( [AvgRoomPrice] * [BookingStatus = Canceled] ) = $$$ lost in cancelled reservation
 4. Grouping rows based on room type
